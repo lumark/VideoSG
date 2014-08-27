@@ -1,2 +1,0 @@
-/usr/bin/ar cr libProtoMessages.a  CMakeFiles/ProtoMessages.dir/segmentation.pb.cc.o
-/usr/bin/ranlib libProtoMessages.a

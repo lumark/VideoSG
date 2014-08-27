@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/3.0.0/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/Users/luma/Code/Luma/VideoSG/build/CMakeFiles/3.0.0/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,35 +23,35 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/3.0.0/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/Users/luma/Code/Luma/VideoSG/build/CMakeFiles/3.0.0/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/luma/Code/Luma/VideoSG/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec702853712/fast"
-/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec702853712.dir/build.make CMakeFiles/cmTryCompileExec702853712.dir/build
-gmake[1]: Entering directory '/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp'
-/opt/local/bin/cmake -E cmake_progress_report /Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec702853712.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec702853712.dir/testCCompiler.c.o   -c /Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec702853712
-/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec702853712.dir/link.txt --verbose=1
-/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec702853712.dir/testCCompiler.c.o  -o cmTryCompileExec702853712  
-gmake[1]: Leaving directory '/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec219531245/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec219531245.dir/build.make CMakeFiles/cmTryCompileExec219531245.dir/build
+gmake[1]: Entering directory '/Users/luma/Code/Luma/VideoSG/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/luma/Code/Luma/VideoSG/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec219531245.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec219531245.dir/testCCompiler.c.o   -c /Users/luma/Code/Luma/VideoSG/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec219531245
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec219531245.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec219531245.dir/testCCompiler.c.o  -o cmTryCompileExec219531245  
+gmake[1]: Leaving directory '/Users/luma/Code/Luma/VideoSG/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/luma/Code/Luma/VideoSG/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec1478400954/fast"
-/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec1478400954.dir/build.make CMakeFiles/cmTryCompileExec1478400954.dir/build
-gmake[1]: Entering directory '/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp'
-/opt/local/bin/cmake -E cmake_progress_report /Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1478400954.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1478400954.dir/CMakeCCompilerABI.c.o   -c /opt/local/share/cmake-3.0/Modules/CMakeCCompilerABI.c
-Linking C executable cmTryCompileExec1478400954
-/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1478400954.dir/link.txt --verbose=1
-/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec1478400954.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1478400954   
+Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec641524052/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec641524052.dir/build.make CMakeFiles/cmTryCompileExec641524052.dir/build
+gmake[1]: Entering directory '/Users/luma/Code/Luma/VideoSG/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/luma/Code/Luma/VideoSG/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec641524052.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec641524052.dir/CMakeCCompilerABI.c.o   -c /opt/local/share/cmake-3.0/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec641524052
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec641524052.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec641524052.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec641524052   
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/opt/local/libexec/gcc/x86_64-apple-darwin13/4.8.3/lto-wrapper
@@ -61,10 +61,10 @@ Thread model: posix
 gcc version 4.8.3 (MacPorts gcc48 4.8.3_0) 
 COMPILER_PATH=/opt/local/libexec/gcc/x86_64-apple-darwin13/4.8.3/:/opt/local/libexec/gcc/x86_64-apple-darwin13/4.8.3/:/opt/local/libexec/gcc/x86_64-apple-darwin13/:/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/:/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/
 LIBRARY_PATH=/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/:/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/../../../:/usr/lib/
-COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.9.3' '-v' '-o' 'cmTryCompileExec1478400954' '-mtune=core2'
- /opt/local/libexec/gcc/x86_64-apple-darwin13/4.8.3/collect2 -dynamic -arch x86_64 -macosx_version_min 10.9.3 -weak_reference_mismatches non-weak -o cmTryCompileExec1478400954 -L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3 -L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec1478400954.dir/CMakeCCompilerABI.c.o -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.9.3' '-v' '-o' 'cmTryCompileExec641524052' '-mtune=core2'
+ /opt/local/libexec/gcc/x86_64-apple-darwin13/4.8.3/collect2 -dynamic -arch x86_64 -macosx_version_min 10.9.3 -weak_reference_mismatches non-weak -o cmTryCompileExec641524052 -L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3 -L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec641524052.dir/CMakeCCompilerABI.c.o -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
 collect2 version 4.8.3
-/opt/local/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.9.3 -weak_reference_mismatches non-weak -o cmTryCompileExec1478400954 -L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3 -L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec1478400954.dir/CMakeCCompilerABI.c.o -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+/opt/local/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.9.3 -weak_reference_mismatches non-weak -o cmTryCompileExec641524052 -L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3 -L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec641524052.dir/CMakeCCompilerABI.c.o -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
 @(#)PROGRAM:ld  PROJECT:ld64-236.3
 configured to support archs: i386 x86_64 x86_64h armv6 armv7 armv7s armv7m arm64
 @(#)PROGRAM:ld  PROJECT:ld64-236.3
@@ -77,22 +77,22 @@ Library search paths:
 Framework search paths:
 	/Library/Frameworks/
 	/System/Library/Frameworks/
-gmake[1]: Leaving directory '/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Users/luma/Code/Luma/VideoSG/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/luma/Code/Luma/VideoSG/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec1478400954/fast"]
-  ignore line: [/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec1478400954.dir/build.make CMakeFiles/cmTryCompileExec1478400954.dir/build]
-  ignore line: [gmake[1]: Entering directory '/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp']
-  ignore line: [/opt/local/bin/cmake -E cmake_progress_report /Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec1478400954.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1478400954.dir/CMakeCCompilerABI.c.o   -c /opt/local/share/cmake-3.0/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTryCompileExec1478400954]
-  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1478400954.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec1478400954.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1478400954   ]
+  ignore line: [Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec641524052/fast"]
+  ignore line: [/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec641524052.dir/build.make CMakeFiles/cmTryCompileExec641524052.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/luma/Code/Luma/VideoSG/build/CMakeFiles/CMakeTmp']
+  ignore line: [/opt/local/bin/cmake -E cmake_progress_report /Users/luma/Code/Luma/VideoSG/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec641524052.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec641524052.dir/CMakeCCompilerABI.c.o   -c /opt/local/share/cmake-3.0/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec641524052]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec641524052.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec641524052.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec641524052   ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/opt/local/libexec/gcc/x86_64-apple-darwin13/4.8.3/lto-wrapper]
@@ -102,8 +102,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.8.3 (MacPorts gcc48 4.8.3_0) ]
   ignore line: [COMPILER_PATH=/opt/local/libexec/gcc/x86_64-apple-darwin13/4.8.3/:/opt/local/libexec/gcc/x86_64-apple-darwin13/4.8.3/:/opt/local/libexec/gcc/x86_64-apple-darwin13/:/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/:/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/]
   ignore line: [LIBRARY_PATH=/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/:/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/../../../:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.9.3' '-v' '-o' 'cmTryCompileExec1478400954' '-mtune=core2']
-  link line: [ /opt/local/libexec/gcc/x86_64-apple-darwin13/4.8.3/collect2 -dynamic -arch x86_64 -macosx_version_min 10.9.3 -weak_reference_mismatches non-weak -o cmTryCompileExec1478400954 -L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3 -L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec1478400954.dir/CMakeCCompilerABI.c.o -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v]
+  ignore line: [COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.9.3' '-v' '-o' 'cmTryCompileExec641524052' '-mtune=core2']
+  link line: [ /opt/local/libexec/gcc/x86_64-apple-darwin13/4.8.3/collect2 -dynamic -arch x86_64 -macosx_version_min 10.9.3 -weak_reference_mismatches non-weak -o cmTryCompileExec641524052 -L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3 -L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec641524052.dir/CMakeCCompilerABI.c.o -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v]
     arg [/opt/local/libexec/gcc/x86_64-apple-darwin13/4.8.3/collect2] ==> ignore
     arg [-dynamic] ==> ignore
     arg [-arch] ==> ignore
@@ -113,13 +113,13 @@ Parsed C implicit link information from above output:
     arg [-weak_reference_mismatches] ==> ignore
     arg [non-weak] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec1478400954] ==> ignore
+    arg [cmTryCompileExec641524052] ==> ignore
     arg [-L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3] ==> dir [/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3]
     arg [-L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/../../..] ==> dir [/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/../../..]
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTryCompileExec1478400954.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec641524052.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-no_compact_unwind] ==> ignore
     arg [-lSystem] ==> lib [System]
     arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
@@ -146,32 +146,32 @@ Parsed C implicit link information from above output:
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/luma/Code/Luma/VideoSG/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec920111351/fast"
-/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec920111351.dir/build.make CMakeFiles/cmTryCompileExec920111351.dir/build
-gmake[1]: Entering directory '/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp'
-/opt/local/bin/cmake -E cmake_progress_report /Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec920111351.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec920111351.dir/testCXXCompiler.cxx.o -c /Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec920111351
-/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec920111351.dir/link.txt --verbose=1
-/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec920111351.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec920111351  
-gmake[1]: Leaving directory '/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec4149657121/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec4149657121.dir/build.make CMakeFiles/cmTryCompileExec4149657121.dir/build
+gmake[1]: Entering directory '/Users/luma/Code/Luma/VideoSG/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/luma/Code/Luma/VideoSG/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4149657121.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4149657121.dir/testCXXCompiler.cxx.o -c /Users/luma/Code/Luma/VideoSG/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec4149657121
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4149657121.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec4149657121.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec4149657121  
+gmake[1]: Leaving directory '/Users/luma/Code/Luma/VideoSG/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/luma/Code/Luma/VideoSG/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec586797603/fast"
-/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec586797603.dir/build.make CMakeFiles/cmTryCompileExec586797603.dir/build
-gmake[1]: Entering directory '/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp'
-/opt/local/bin/cmake -E cmake_progress_report /Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec586797603.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec586797603.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTryCompileExec586797603
-/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec586797603.dir/link.txt --verbose=1
-/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec586797603.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec586797603   
+Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec2893285273/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec2893285273.dir/build.make CMakeFiles/cmTryCompileExec2893285273.dir/build
+gmake[1]: Entering directory '/Users/luma/Code/Luma/VideoSG/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/luma/Code/Luma/VideoSG/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2893285273.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2893285273.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2893285273
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2893285273.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec2893285273.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2893285273   
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/opt/local/libexec/gcc/x86_64-apple-darwin13/4.8.3/lto-wrapper
@@ -181,10 +181,10 @@ Thread model: posix
 gcc version 4.8.3 (MacPorts gcc48 4.8.3_0) 
 COMPILER_PATH=/opt/local/libexec/gcc/x86_64-apple-darwin13/4.8.3/:/opt/local/libexec/gcc/x86_64-apple-darwin13/4.8.3/:/opt/local/libexec/gcc/x86_64-apple-darwin13/:/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/:/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/
 LIBRARY_PATH=/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/:/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/../../../:/usr/lib/
-COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.9.3' '-v' '-o' 'cmTryCompileExec586797603' '-shared-libgcc' '-mtune=core2'
- /opt/local/libexec/gcc/x86_64-apple-darwin13/4.8.3/collect2 -dynamic -arch x86_64 -macosx_version_min 10.9.3 -weak_reference_mismatches non-weak -o cmTryCompileExec586797603 -L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3 -L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec586797603.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.9.3' '-v' '-o' 'cmTryCompileExec2893285273' '-shared-libgcc' '-mtune=core2'
+ /opt/local/libexec/gcc/x86_64-apple-darwin13/4.8.3/collect2 -dynamic -arch x86_64 -macosx_version_min 10.9.3 -weak_reference_mismatches non-weak -o cmTryCompileExec2893285273 -L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3 -L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2893285273.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
 collect2 version 4.8.3
-/opt/local/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.9.3 -weak_reference_mismatches non-weak -o cmTryCompileExec586797603 -L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3 -L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec586797603.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+/opt/local/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.9.3 -weak_reference_mismatches non-weak -o cmTryCompileExec2893285273 -L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3 -L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2893285273.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
 @(#)PROGRAM:ld  PROJECT:ld64-236.3
 configured to support archs: i386 x86_64 x86_64h armv6 armv7 armv7s armv7m arm64
 @(#)PROGRAM:ld  PROJECT:ld64-236.3
@@ -197,22 +197,22 @@ Library search paths:
 Framework search paths:
 	/Library/Frameworks/
 	/System/Library/Frameworks/
-gmake[1]: Leaving directory '/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Users/luma/Code/Luma/VideoSG/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/luma/Code/Luma/VideoSG/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec586797603/fast"]
-  ignore line: [/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec586797603.dir/build.make CMakeFiles/cmTryCompileExec586797603.dir/build]
-  ignore line: [gmake[1]: Entering directory '/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp']
-  ignore line: [/opt/local/bin/cmake -E cmake_progress_report /Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec586797603.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec586797603.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTryCompileExec586797603]
-  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec586797603.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec586797603.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec586797603   ]
+  ignore line: [Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec2893285273/fast"]
+  ignore line: [/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec2893285273.dir/build.make CMakeFiles/cmTryCompileExec2893285273.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/luma/Code/Luma/VideoSG/build/CMakeFiles/CMakeTmp']
+  ignore line: [/opt/local/bin/cmake -E cmake_progress_report /Users/luma/Code/Luma/VideoSG/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2893285273.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2893285273.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2893285273]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2893285273.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec2893285273.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2893285273   ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/opt/local/libexec/gcc/x86_64-apple-darwin13/4.8.3/lto-wrapper]
@@ -222,8 +222,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.8.3 (MacPorts gcc48 4.8.3_0) ]
   ignore line: [COMPILER_PATH=/opt/local/libexec/gcc/x86_64-apple-darwin13/4.8.3/:/opt/local/libexec/gcc/x86_64-apple-darwin13/4.8.3/:/opt/local/libexec/gcc/x86_64-apple-darwin13/:/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/:/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/]
   ignore line: [LIBRARY_PATH=/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/:/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/../../../:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.9.3' '-v' '-o' 'cmTryCompileExec586797603' '-shared-libgcc' '-mtune=core2']
-  link line: [ /opt/local/libexec/gcc/x86_64-apple-darwin13/4.8.3/collect2 -dynamic -arch x86_64 -macosx_version_min 10.9.3 -weak_reference_mismatches non-weak -o cmTryCompileExec586797603 -L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3 -L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec586797603.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v]
+  ignore line: [COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.9.3' '-v' '-o' 'cmTryCompileExec2893285273' '-shared-libgcc' '-mtune=core2']
+  link line: [ /opt/local/libexec/gcc/x86_64-apple-darwin13/4.8.3/collect2 -dynamic -arch x86_64 -macosx_version_min 10.9.3 -weak_reference_mismatches non-weak -o cmTryCompileExec2893285273 -L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3 -L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2893285273.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v]
     arg [/opt/local/libexec/gcc/x86_64-apple-darwin13/4.8.3/collect2] ==> ignore
     arg [-dynamic] ==> ignore
     arg [-arch] ==> ignore
@@ -233,13 +233,13 @@ Parsed CXX implicit link information from above output:
     arg [-weak_reference_mismatches] ==> ignore
     arg [non-weak] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec586797603] ==> ignore
+    arg [cmTryCompileExec2893285273] ==> ignore
     arg [-L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3] ==> dir [/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3]
     arg [-L/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/../../..] ==> dir [/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3/../../..]
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTryCompileExec586797603.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec2893285273.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-no_compact_unwind] ==> ignore
     arg [-lSystem] ==> lib [System]
@@ -265,48 +265,4 @@ Parsed CXX implicit link information from above output:
   implicit dirs: [/opt/local/lib/gcc48/gcc/x86_64-apple-darwin13/4.8.3;/opt/local/lib/gcc48;/usr/lib;/usr/local/lib]
   implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
 
-
-Determining if files pthread.h exist passed with the following output:
-Change Dir: /Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec2350994514/fast"
-/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec2350994514.dir/build.make CMakeFiles/cmTryCompileExec2350994514.dir/build
-gmake[1]: Entering directory '/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp'
-/opt/local/bin/cmake -E cmake_progress_report /Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2350994514.dir/CheckIncludeFiles.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2350994514.dir/CheckIncludeFiles.c.o   -c /Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
-Linking C executable cmTryCompileExec2350994514
-/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2350994514.dir/link.txt --verbose=1
-/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2350994514.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2350994514  
-gmake[1]: Leaving directory '/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp'
-
-
-Determining if the pthread_create exist passed with the following output:
-Change Dir: /Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec463681618/fast"
-/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec463681618.dir/build.make CMakeFiles/cmTryCompileExec463681618.dir/build
-gmake[1]: Entering directory '/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp'
-/opt/local/bin/cmake -E cmake_progress_report /Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec463681618.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec463681618.dir/CheckSymbolExists.c.o   -c /Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec463681618
-/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec463681618.dir/link.txt --verbose=1
-/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec463681618.dir/CheckSymbolExists.c.o  -o cmTryCompileExec463681618  
-gmake[1]: Leaving directory '/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp'
-
-File /Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
-/* */
-#include <pthread.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef pthread_create
-  return ((int*)(&pthread_create))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
 
