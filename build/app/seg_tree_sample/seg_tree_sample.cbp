@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="seg_tree_sample" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\cmake_modules\;CMake Files\segment_util\;CMake Files\app\;CMake Files\app\seg_tree_sample\;CMake Files\build\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="seg_tree_sample">
+         <Option output="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/seg_tree_sample" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DHAVE_OPENCV" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/." />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/.." />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/VideoSG_INCLUDE_DIRS" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/.." />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample" />
+            <Add directory="/opt/local/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+            <Add directory="/usr/local/include/opencv2" />
+            <Add directory="/usr/local/include/opencv2/calib3d" />
+            <Add directory="/usr/local/include/opencv2/contrib" />
+            <Add directory="/usr/local/include/opencv2/core" />
+            <Add directory="/usr/local/include/opencv2/features2d" />
+            <Add directory="/usr/local/include/opencv2/flann" />
+            <Add directory="/usr/local/include/opencv2/gpu" />
+            <Add directory="/usr/local/include/opencv2/highgui" />
+            <Add directory="/usr/local/include/opencv2/imgproc" />
+            <Add directory="/usr/local/include/opencv2/legacy" />
+            <Add directory="/usr/local/include/opencv2/ml" />
+            <Add directory="/usr/local/include/opencv2/objdetect" />
+            <Add directory="/usr/local/include/opencv2/video" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/Makefile&quot;  VERBOSE=1 seg_tree_sample" />
+            <CompileFile command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="seg_tree_sample/fast">
+         <Option output="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/seg_tree_sample" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DHAVE_OPENCV" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/." />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/.." />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/VideoSG_INCLUDE_DIRS" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/.." />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample" />
+            <Add directory="/opt/local/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+            <Add directory="/usr/local/include/opencv2" />
+            <Add directory="/usr/local/include/opencv2/calib3d" />
+            <Add directory="/usr/local/include/opencv2/contrib" />
+            <Add directory="/usr/local/include/opencv2/core" />
+            <Add directory="/usr/local/include/opencv2/features2d" />
+            <Add directory="/usr/local/include/opencv2/flann" />
+            <Add directory="/usr/local/include/opencv2/gpu" />
+            <Add directory="/usr/local/include/opencv2/highgui" />
+            <Add directory="/usr/local/include/opencv2/imgproc" />
+            <Add directory="/usr/local/include/opencv2/legacy" />
+            <Add directory="/usr/local/include/opencv2/ml" />
+            <Add directory="/usr/local/include/opencv2/objdetect" />
+            <Add directory="/usr/local/include/opencv2/video" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/Makefile&quot;  VERBOSE=1 seg_tree_sample/fast" />
+            <CompileFile command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/seg_tree.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/config.h.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/VideoSGConfigVersion.cmake.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/VideoSGConfig.cmake.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/../../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/../../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/../../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/../../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/cmake_modules/FindGLog.cmake">
+          <Option virtualFolder="CMake Files\cmake_modules\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/cmake_modules/FindOpenCV2.cmake">
+          <Option virtualFolder="CMake Files\cmake_modules\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segment_util/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\segment_util\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\app\seg_tree_sample\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\app\seg_tree_sample\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/VideoSGConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\build\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/VideoSGConfig.cmake">
+          <Option virtualFolder="CMake Files\build\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/VideoSGConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\build\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/VideoSGConfig.cmake">
+          <Option virtualFolder="CMake Files\build\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

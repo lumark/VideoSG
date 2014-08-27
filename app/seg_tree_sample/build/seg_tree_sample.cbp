@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="seg_tree_sample" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\build\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="seg_tree_sample">
+         <Option output="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build/seg_tree_sample" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/VideoSG_INCLUDE_DIRS" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build/Makefile&quot;  VERBOSE=1 seg_tree_sample" />
+            <CompileFile command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="seg_tree_sample/fast">
+         <Option output="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build/seg_tree_sample" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/VideoSG_INCLUDE_DIRS" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build/Makefile&quot;  VERBOSE=1 seg_tree_sample/fast" />
+            <CompileFile command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/seg_tree.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/../../build/VideoSGConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\build\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/../../build/VideoSGConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\build\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/../../build/VideoSGTargets.cmake">
+          <Option virtualFolder="CMake Files\..\..\build\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

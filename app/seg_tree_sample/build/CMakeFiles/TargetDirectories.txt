@@ -1,0 +1,1 @@
+/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/build/CMakeFiles/seg_tree_sample.dir

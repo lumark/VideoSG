@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="VideoSG" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\cmake_modules\;CMake Files\segment_util\;CMake Files\app\;CMake Files\app\seg_tree_sample\;CMake Files\build\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="VideoSG">
+         <Option output="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/libVideoSG.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DHAVE_OPENCV" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/." />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/.." />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/.." />
+            <Add directory="/opt/local/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+            <Add directory="/usr/local/include/opencv2" />
+            <Add directory="/usr/local/include/opencv2/calib3d" />
+            <Add directory="/usr/local/include/opencv2/contrib" />
+            <Add directory="/usr/local/include/opencv2/core" />
+            <Add directory="/usr/local/include/opencv2/features2d" />
+            <Add directory="/usr/local/include/opencv2/flann" />
+            <Add directory="/usr/local/include/opencv2/gpu" />
+            <Add directory="/usr/local/include/opencv2/highgui" />
+            <Add directory="/usr/local/include/opencv2/imgproc" />
+            <Add directory="/usr/local/include/opencv2/legacy" />
+            <Add directory="/usr/local/include/opencv2/ml" />
+            <Add directory="/usr/local/include/opencv2/objdetect" />
+            <Add directory="/usr/local/include/opencv2/video" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 VideoSG" />
+            <CompileFile command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="VideoSG/fast">
+         <Option output="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/libVideoSG.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DHAVE_OPENCV" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/." />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/.." />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/.." />
+            <Add directory="/opt/local/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+            <Add directory="/usr/local/include/opencv2" />
+            <Add directory="/usr/local/include/opencv2/calib3d" />
+            <Add directory="/usr/local/include/opencv2/contrib" />
+            <Add directory="/usr/local/include/opencv2/core" />
+            <Add directory="/usr/local/include/opencv2/features2d" />
+            <Add directory="/usr/local/include/opencv2/flann" />
+            <Add directory="/usr/local/include/opencv2/gpu" />
+            <Add directory="/usr/local/include/opencv2/highgui" />
+            <Add directory="/usr/local/include/opencv2/imgproc" />
+            <Add directory="/usr/local/include/opencv2/legacy" />
+            <Add directory="/usr/local/include/opencv2/ml" />
+            <Add directory="/usr/local/include/opencv2/objdetect" />
+            <Add directory="/usr/local/include/opencv2/video" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 VideoSG/fast" />
+            <CompileFile command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ProtoMessages">
+         <Option output="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/segment_util/libProtoMessages.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/segment_util" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/." />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/segment_util/Makefile&quot;  VERBOSE=1 ProtoMessages" />
+            <CompileFile command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/segment_util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/segment_util/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/segment_util/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ProtoMessages/fast">
+         <Option output="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/segment_util/libProtoMessages.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/segment_util" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/." />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/segment_util/Makefile&quot;  VERBOSE=1 ProtoMessages/fast" />
+            <CompileFile command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/segment_util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/segment_util/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/segment_util/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="seg_tree_sample">
+         <Option output="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/seg_tree_sample" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DHAVE_OPENCV" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/." />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/.." />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/VideoSG_INCLUDE_DIRS" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/.." />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample" />
+            <Add directory="/opt/local/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+            <Add directory="/usr/local/include/opencv2" />
+            <Add directory="/usr/local/include/opencv2/calib3d" />
+            <Add directory="/usr/local/include/opencv2/contrib" />
+            <Add directory="/usr/local/include/opencv2/core" />
+            <Add directory="/usr/local/include/opencv2/features2d" />
+            <Add directory="/usr/local/include/opencv2/flann" />
+            <Add directory="/usr/local/include/opencv2/gpu" />
+            <Add directory="/usr/local/include/opencv2/highgui" />
+            <Add directory="/usr/local/include/opencv2/imgproc" />
+            <Add directory="/usr/local/include/opencv2/legacy" />
+            <Add directory="/usr/local/include/opencv2/ml" />
+            <Add directory="/usr/local/include/opencv2/objdetect" />
+            <Add directory="/usr/local/include/opencv2/video" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/Makefile&quot;  VERBOSE=1 seg_tree_sample" />
+            <CompileFile command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="seg_tree_sample/fast">
+         <Option output="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/seg_tree_sample" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DHAVE_OPENCV" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/." />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/.." />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/VideoSG_INCLUDE_DIRS" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build" />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/.." />
+            <Add directory="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample" />
+            <Add directory="/opt/local/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+            <Add directory="/usr/local/include/opencv2" />
+            <Add directory="/usr/local/include/opencv2/calib3d" />
+            <Add directory="/usr/local/include/opencv2/contrib" />
+            <Add directory="/usr/local/include/opencv2/core" />
+            <Add directory="/usr/local/include/opencv2/features2d" />
+            <Add directory="/usr/local/include/opencv2/flann" />
+            <Add directory="/usr/local/include/opencv2/gpu" />
+            <Add directory="/usr/local/include/opencv2/highgui" />
+            <Add directory="/usr/local/include/opencv2/imgproc" />
+            <Add directory="/usr/local/include/opencv2/legacy" />
+            <Add directory="/usr/local/include/opencv2/ml" />
+            <Add directory="/usr/local/include/opencv2/objdetect" />
+            <Add directory="/usr/local/include/opencv2/video" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/Makefile&quot;  VERBOSE=1 seg_tree_sample/fast" />
+            <CompileFile command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/opt/local/bin/gmake -f &quot;/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/seg_tree.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/base/base.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/base/base_impl.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/imagefilter/image_filter.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segment_util/segmentation_boundary.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segment_util/segmentation_io.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segment_util/segmentation_render.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segment_util/segmentation_util.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/boundary.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/dense_seg_graph_interface.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/dense_segmentation.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/dense_segmentation_graph.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/histograms.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/pixel_distance.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/region_descriptor.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/region_segmentation.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/region_segmentation_graph.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/segmentation.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/segmentation_common.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/segmentation_graph.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/segmentation_unit.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/video_framework/flow_reader.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/video_framework/video_capture_unit.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/video_framework/video_display_unit.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/video_framework/video_pipeline.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/video_framework/video_reader_unit.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/video_framework/video_unit.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/video_framework/video_writer_unit.cpp">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/base/base.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/base/base_impl.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/imagefilter/image_filter.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/imagefilter/image_util.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segment_util/segmentation_boundary.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segment_util/segmentation_io.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segment_util/segmentation_render.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segment_util/segmentation_util.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/boundary.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/dense_seg_graph_interface.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/dense_segmentation.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/dense_segmentation_graph.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/histograms.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/pixel_distance.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/region_descriptor.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/region_segmentation.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/region_segmentation_graph.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/segmentation.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/segmentation_common.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/segmentation_graph.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segmentation/segmentation_unit.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/video_framework/flow_reader.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/video_framework/video_capture_unit.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/video_framework/video_display_unit.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/video_framework/video_pipeline.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/video_framework/video_reader_unit.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/video_framework/video_unit.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/video_framework/video_writer_unit.h">
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/config.h.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/VideoSGConfigVersion.cmake.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/VideoSGConfig.cmake.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/../../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/../../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/../../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/../../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/cmake_modules/FindGLog.cmake">
+          <Option virtualFolder="CMake Files\cmake_modules\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/cmake_modules/FindOpenCV2.cmake">
+          <Option virtualFolder="CMake Files\cmake_modules\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/segment_util/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\segment_util\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\app\seg_tree_sample\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/app/seg_tree_sample/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\app\seg_tree_sample\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/VideoSGConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\build\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/VideoSGConfig.cmake">
+          <Option virtualFolder="CMake Files\build\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/VideoSGConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\build\" />
+      </Unit>
+      <Unit filename="/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/VideoSGConfig.cmake">
+          <Option virtualFolder="CMake Files\build\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

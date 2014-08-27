@@ -1,0 +1,3 @@
+/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/segment_util/CMakeFiles/ProtoMessages.dir
+/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/CMakeFiles/VideoSG.dir
+/Users/luma/Code/Luma/VideoSGNew/VideoSG/build/app/seg_tree_sample/CMakeFiles/seg_tree_sample.dir
