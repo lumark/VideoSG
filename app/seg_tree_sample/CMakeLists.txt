@@ -37,10 +37,7 @@ if (APPLE)
 endif (APPLE)
 
 #######################################################
-
 find_package(VideoSG)
-include_directories(VideoSG_INCLUDE_DIRS)
-
 
 set(CMAKE_INCLUDE_CURRENT_DIR 1)
 option(NO_X_SUPPORT "Disables interactive output and linking of X libraries" OFF)
@@ -54,9 +51,7 @@ if (WITH_QT)
   add_definitions(-DWITH_QT)
 endif(WITH_QT)
 
-message("video sg include dir" ${VideoSG_LIBRARIES})
-
-
+include_directories(${VideoSG_INCLUDE_DIRS})
 add_executable(seg_tree_sample seg_tree.cpp)
 target_link_libraries(seg_tree_sample ${VideoSG_LIBRARIES})
 

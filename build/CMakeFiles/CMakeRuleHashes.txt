@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+7b3b8a2f4c7a9654fcdf8fa8a6c273ec VideoSG/segment_util/segmentation.pb.cc

@@ -26,8 +26,8 @@
 //
 // ---
 
-#include <base/base.h>
-#include "base/base_impl.h"
+#include "VideoSG/base/base.h"
+#include "VideoSG/base/base_impl.h"
 
 #include <gflags/gflags.h>
 #include <opencv2/highgui/highgui.hpp>
